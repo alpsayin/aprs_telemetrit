@@ -29,7 +29,7 @@ void usage(void)
 	printf("\ttelemetrit unit NOCALL NOCALL-1 A1 A2 A3 A4 A5 B1 B2 B3 B4 B5 B6 B7 B8\n");
 	printf("unwanted units can be omitted starting from the left\n");
 	printf("\nexample for coef:\n");
-	printf("\ttelemetrit unit NOCALL NOCALL-1 A1a A1b A1c A2a A2b A3a A3b A3c A4a A4b A4c A5a A5b A5c\n");
+	printf("\ttelemetrit coef NOCALL NOCALL-1 A1a A1b A1c A2a A2b A3a A3b A3c A4a A4b A4c A5a A5b A5c\n");
 	printf("unwanted coefficients can be omitted starting from the left, they'll be set to 0\n");
 	printf("\nexample for bitsense:\n");
 	printf("\ttelemetrit bitsens NOCALL NOCALL-1 project_name B1 B2 B3 B4 B5 B6 B7 B8\n");
