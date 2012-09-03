@@ -33,7 +33,7 @@ void usage(void)
 	printf("unwanted coefficients can be omitted starting from the left, they'll be set to 0\n");
 	printf("\nexample for bitsense:\n");
 	printf("\ttelemetrit bitsens NOCALL NOCALL-1 project_name B1 B2 B3 B4 B5 B6 B7 B8\n");
-	printf("unwanted coefficients can be omitted starting from the left, they'll be set to 0\n");
+	printf("unwanted coefficients can be omitted starting from the right, they'll be set to 0\n");
 
 
 	printf("Build Date: %s\n", BUILD);
